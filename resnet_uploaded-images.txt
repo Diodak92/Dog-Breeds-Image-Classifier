@@ -1,0 +1,74 @@
+Command Line Arguments:
+     dir = uploaded_images/ 
+    arch = resnet 
+ dogfile = dognames.txt
+
+Pet Image Label Dictionary has 4 key-value pairs.
+Below are 4 of them:
+ 1 key:                     cat_01.jpg  label:                        cat
+ 2 key:     German_shepherd_dog_02.jpg  label:        german shepherd dog
+ 3 key:     German_shepherd_dog_01.jpg  label:        german shepherd dog
+ 4 key:                 dog_poo_01.jpg  label:                    dog poo
+
+     MATCH:
+
+                    cat_01.jpg: 
+Real:                        cat   Classifier:          tabby, tabby cat, cat
+
+    German_shepherd_dog_02.jpg: 
+Real:        german shepherd dog   Classifier: german shepherd, german shepherd dog, german police dog, alsatian
+
+    German_shepherd_dog_01.jpg: 
+Real:        german shepherd dog   Classifier: german shepherd, german shepherd dog, german police dog, alsatian
+
+ NOT A MATCH:
+
+                dog_poo_01.jpg: 
+Real:                    dog poo   Classifier:                         bolete
+
+# Total Images 4 # Matches: 3 # NOT Matches: 1
+
+     MATCH:
+
+                    cat_01.jpg: 
+Real:                        cat   Classifier:          tabby, tabby cat, cat  
+PetLabelDog: 0  ClassLabelDog: 0
+
+    German_shepherd_dog_02.jpg: 
+Real:        german shepherd dog   Classifier: german shepherd, german shepherd dog, german police dog, alsatian  
+PetLabelDog: 1  ClassLabelDog: 1
+
+    German_shepherd_dog_01.jpg: 
+Real:        german shepherd dog   Classifier: german shepherd, german shepherd dog, german police dog, alsatian  
+PetLabelDog: 1  ClassLabelDog: 1
+
+ NOT A MATCH:
+
+                dog_poo_01.jpg: 
+Real:                    dog poo   Classifier:                         bolete  
+PetLabelDog: 0  ClassLabelDog: 0
+
+# Total Images 4 # Matches: 3 # NOT Matches: 1
+
+ ** Statistics from calculates_results_stats() function:
+N Images:  4  N Dog Images:  2  N NotDog Images:  2 
+Pct Corr dog: 100.0 Pct Corr NOTdog: 100.0  Pct Corr Breed: 100.0
+
+ ** Check Statistics - calculated from this function as a check:
+N Images:  4  N Dog Images:  2  N NotDog Images:  2 
+Pct Corr dog: 100.0 Pct Corr NOTdog: 100.0  Pct Corr Breed: 100.0
+CNN model architecture: resnet
+
+DATA SET COUNTS
+- Number of Immages: 4
+- Number of Dog Images: 2
+- Number of "Not-a" Dog Images: 2
+
+DATA SET STATS
+- Correct Dogs: 100.0%
+- Correct Breed: 100.0%
+- Correct "Not-a" Dog: 100.0%
+- Match: 75.0%
+
+
+** Total Elapsed Runtime: 0:0:0.56
