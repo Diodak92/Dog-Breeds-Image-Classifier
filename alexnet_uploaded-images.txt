@@ -76,4 +76,4 @@ Pet image label: german shepherd dog
 Misclassified label: malinois
 
 
-** Total Elapsed Runtime: 0:0:0.3
+** Total Elapsed Runtime: 0:0:0.39

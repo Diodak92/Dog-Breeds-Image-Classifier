@@ -337,4 +337,4 @@ Pet image label: great pyrenees
 Misclassified label: kuvasz
 
 
-** Total Elapsed Runtime: 0:0:16.04
+** Total Elapsed Runtime: 0:0:23.29
