@@ -18,7 +18,6 @@
 ##
 # Imports python modules
 from os import listdir, getcwd
-from pip import main
 
 # TODO 2: Define get_pet_labels function below please be certain to replace None
 #       in the return statement with results_dic dictionary that you create 

@@ -349,4 +349,4 @@ Pet image label: golden retriever
 Misclassified label: afghan hound, afghan
 
 
-** Total Elapsed Runtime: 0:0:2.63
+** Total Elapsed Runtime: 0:0:2.05
